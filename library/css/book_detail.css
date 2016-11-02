@@ -1,0 +1,229 @@
+body{
+  background: #D4D5E0;
+}
+#book_message{
+  width:1000px;
+  height:330px;
+  border:1px solid #ccc;
+  margin:0 auto;
+  background: #fff;
+}
+.book_photo{
+  float:left;
+  margin:20px;
+  width:250px;
+  height:300px;
+}
+.book_photo>img{
+  width:200px;
+  margin-left:10px;
+}
+.book_photo>div{
+  float:left;
+  margin:10px;
+  color:red;
+  font-size: 16px;
+  font-weight: bold;
+}
+.book_detail{
+  float:left;
+
+  width:700px;
+  height:260px;
+  margin-top:50px;
+}
+
+.book_detail_name{
+  float:left;
+  width: 100%;
+  margin:10px;
+  color:red;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+p.book_detail_class{
+  margin:20px;
+}
+/***********************************************/
+/***************评价****************************/
+div.book_comment{
+  width:1000px;
+  height:1100px;
+  margin:0 auto;
+  margin-top:10px;
+
+}
+div.left{
+  float: left;
+  width:700px;
+  height:480px;
+}
+div.my_comment{
+  float:left;
+  width:700px;
+  height: 150px;
+  margin-top:10px;
+  background: #fff;
+}
+div.mypic{
+  float: left;
+  width:120px;
+  height:110px;
+}
+div.mypic img{
+  float: left;
+  width:100px;
+  height:100px;
+  border-radius: 50px;
+  margin-top:15px;
+  margin-left:10px;
+}
+div.my_comment_inner{
+  float: left;
+  margin-top:10px;
+
+}
+div.my_comment_inner>textarea{
+  resize:none;
+  width:530px;
+  height:90px;
+  outline: none;
+  color:#666;
+  font-size: 18px;
+}
+#btn_comment{
+  float:left;
+  width:530px;
+  height:30px;
+  padding: 0;
+}
+#btn_comment_msg{
+  float: right;
+  margin-top:5px;
+  width:70px;
+  height:25px;
+  line-height: 25px;
+  border-radius: 3px;
+  text-align: center;
+  background: #e9343c;
+  color:#fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.reader_comment_01{
+  width:700px;
+  height:120px;
+  background: #fff;
+  margin-top:10px;
+}
+.readerpic{
+  float: left;
+  width:120px;
+  height:110px;
+}
+.readerpic img{
+  float: left;
+  width:80px;
+  height:80px;
+  border-radius: 50px;
+  margin-top:10px;
+  margin-left:10px;
+}
+.reader_comment{
+  float:left;
+  width:700px;
+  margin-top:10px;
+}
+.reader_comment_inner{
+  float: left;
+  width:550px;
+  height:100px;
+  margin-top:10px;
+}
+.reader_comment_inner p{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/*********************************************/
+/****************右边**********************/
+.right{
+  float: left;
+  width:280px;
+  height:500px;
+  margin-left:10px;
+  margin-top:10px;
+}
+.right_top{
+  float: left;
+  width:280px;
+  height:80px;
+  background: #fff;
+}
+.like_count{
+  float:left;
+  width:135px;
+  height:60px;
+  margin-top:10px;
+  border-right:1px solid #ccc;
+}
+.like_count p{
+  width:120px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.like_count p:first-child{
+  font-size: 16px;
+  font-weight: bold;
+}
+.comment_count{
+  float:left;
+  width:135px;
+  height:60px;
+  margin-top:10px;
+}
+.comment_count p{
+  width:120px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.comment_count p:first-child{
+  font-size: 16px;
+  font-weight: bold;
+}
+div.same{
+  float: left;
+  width:280px;
+  height:30px;
+  line-height: 30px;
+  background: #fff;
+  margin-top: 10px;
+}
+div.same p{
+  font-size: 16px;
+  font-weight: bold;
+  margin-left:20px;
+  color: #e4393c;
+}
+.book_notice{
+  float: left;
+  width:280px;
+  height:140px;
+  background: #fff;
+}
+.book_notice img{
+  float:left;
+}
+.book_notice p{
+  width:180px;
+  float: left;
+  margin-top: 20px;
+  font-size: 14px;
+
+}
+.book_notice p span:first-child{
+  color:#e9343c;
+  font-size: 12px;
+  font-weight: bold;
+}

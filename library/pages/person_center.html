@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="../css/person_center.css"/>
+  <link rel="stylesheet" href="../css/library.css"/>
+</head>
+<body>
+  <!--头部-->
+  <div id="header"></div>
+
+
+  <!--主体-->
+  <div id="them">
+    <div class="photo">
+      <img src="../images/photo.png" alt=""/>
+    </div>
+    <div class="msg">
+      <div class="top">
+        <span id="top_name">佳乐滋</span>
+        <span><img src="../images/person_small.png" alt=""/></span>
+      </div>
+      <div class="middle">
+        <span>个人邮箱：</span>
+        <span id="middle_email">1371934898@qq.com</span>
+      </div>
+    </div>
+  </div>
+
+  <!--信息部分-->
+  <div id="detail">
+    <div class="nav">
+      <ul>
+        <li><a href="">个人信息</a></li>
+        <li><a href="">我的书架</a></li>
+      </ul>
+    </div>
+
+    <div class="panel">
+      <form id="register-form">
+        <div class="form-group">
+          <label for="uname">用户名：</label>
+          <input required minlength="6" maxlength="9" type="text" placeholder="请输入用户名" autofocus name="uname" id="uname"/>
+          <span class="msg-default">用户名长度在6到9位之间</span>
+        </div>
+        <div class="form-group">
+          <label for="nuname">新用户名：</label>
+          <input required minlength="6" maxlength="9" type="text" placeholder="请输入用户名" autofocus name="nuname" id="nuname"/>
+          <span class="msg-default">用户名长度在6到9位之间</span>
+        </div>
+        <div class="form-group">
+          <label for="upwd">原密码：</label>
+          <input required type="password" placeholder="请输入密码" name="upwd" id="upwd"  minlength="8" maxlength="12"/>
+          <span class="msg-default hidden">密码长度在6到12位之间</span>
+        </div>
+        <div class="form-group">
+          <label for="nupwd">新密码：</label>
+          <input required type="password" placeholder="请输入密码" name="nupwd" id="nupwd"  minlength="8" maxlength="12"/>
+          <span class="msg-default hidden">密码长度在6到12位之间</span>
+        </div>
+        <div class="form-group">
+          <label for="qpwd">确认密码：</label>
+          <input required type="password" placeholder="请输入密码" name="qpwd" id="qpwd"  minlength="8" maxlength="12"/>
+          <span class="msg-default hidden">请确认密码</span>
+        </div>
+        <div class="form-group">
+          <label for="email">电子邮件：</label>
+          <input required type="email" placeholder="请输入邮箱地址" name="email" id="email"/>
+          <span class="msg-default hidden">请输入合法的邮箱地址</span>
+        </div>
+        <div class="form-group">
+          <label for="phone">电话号码：</label>
+          <input type="tel" placeholder="请输入手机号码" name="phone" id="phone"/>
+          <span class="msg-default hidden">请输入正确的号码</span>
+        </div>
+
+        <div class="form-group">
+          <label></label>
+          <input type="button" id="bt-register" value="修改个人信息"/>
+        </div>
+      </form>
+      <div class="my_bookcase">
+
+        <!--<div class="book_msg">-->
+          <!--<div class="left"><img src="../images/photo.png" alt=""/></div>-->
+          <!--<div class="right">-->
+            <!--<p>岛上书店</p>-->
+            <!--<p><a href="">开始阅读</a> <a href="">移除书架</a></p>-->
+          <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="book_msg">-->
+          <!--<div class="left"><img src="../images/photo.png" alt=""/></div>-->
+          <!--<div class="right">-->
+            <!--<p>岛上书店</p>-->
+            <!--<p><a href="">开始阅读</a> <a href="">移除书架</a></p>-->
+          <!--</div>-->
+        <!--</div>-->
+        <!--<div class="book_msg">-->
+          <!--<div class="left"><img src="../images/photo.png" alt=""/></div>-->
+          <!--<div class="right">-->
+            <!--<p>岛上书店</p>-->
+            <!--<p><a href="">开始阅读</a> <a href="">移除书架</a></p>-->
+          <!--</div>-->
+        <!--</div>-->
+        <!--<div class="book_msg">-->
+          <!--<div class="left"><img src="../images/photo.png" alt=""/></div>-->
+          <!--<div class="right">-->
+            <!--<p>岛上书店</p>-->
+            <!--<p><a href="">开始阅读</a> <a href="">移除书架</a></p>-->
+          <!--</div>-->
+        <!--</div>-->
+
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <!--页尾-->
+  <div id="footer"></div>
+
+
+  <script src="../js/jquery-1.11.3.js"> </script>
+  <script src="../js/person_center.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+*{
+  padding:0;
+  margin:0;
+}
+body{
+  /*background:url(../images/bg.png);*/
+  font:12px "microsoft yahei",Arial,sans-serif;
+  color:#666;
+}
+
+input{border:0;}
+.lf{float:left;}
+.rt{float:right;}
+.clear{clear:both;}
+img{vertical-align:bottom;}
+a{
+  color:#666;
+  text-decoration:none;
+}
+a:hover{
+  color:#FF0700;
+  text-decoration:none;
+}
+li{
+  list-style: none;
+}
+/******************主体*************************/
+.main{
+  width:1000px;
+  height:1600px;
+  margin:0 auto;
+}
+.left{
+  float: left;
+  width:200px;
+  height: 1600px;
+  border-right:1px solid #ccc;
+}
+.left>p{
+  font-size: 16px;
+  font-weight: bold;
+  color: #ccc;
+}
+.left ul{
+  float:left;
+  margin-left:20px;
+}
+.left ul li{
+  margin-top: 10px;
+  color:#666;
+}
+.left ul li span{
+  color:#ccc;
+}
+.right{
+  width:750px;
+  height: 1600px;
+  margin-left: 210px;
+}
+.carousel{
+  float: left;
+  width:750px;
+  height:200px;
+  border: 1px solid #000;
+}
+.right>p{
+  float: left;
+  width:100%;
+  height:80px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top:10px;
+}
+.new_book,hot_book{
+  float:left;
+  width: 100%;
+  height:500px;
+}
+#new_list li{
+  float:left;
+  width:170px;
+  height: 250px;
+  margin-left:15px;
+}
+ #new_list li dl{
+  height:30px;
+  line-height: 30px;
+  margin-top:15px;
+  color:#222;
+  font-size:14px;
+  font-weight: bold;
+  text-align: left;
+}
+ #new_list li span{
+  float:left;
+  width:80px;
+  height:20px;
+  line-height: 20px;
+  /*background: #e9343c;*/
+  cursor: pointer;
+  font-weight: bold;
+  border:1px solid #ccc;
+   text-align: center;
+}
+ #new_list li dd{
+  height:30px;
+  line-height: 20px;
+  color:#666;
+  font-size:12px;
+  text-align: left;
+}
+ #new_list li a:last-child{
+   float:right;
+   width:80px;
+   height:20px;
+   line-height: 20px;
+   text-align: center;
+   border:1px solid #ccc;
+   font-weight: bold;
+ }
